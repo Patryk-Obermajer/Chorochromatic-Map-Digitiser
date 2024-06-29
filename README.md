@@ -43,7 +43,7 @@ The initial 6x6 pixel tiles resulted in some rogue polygons, so we repeated the 
 The algorithm has proven effective on the WRAP map and has significantly reduced the amount of manual labour required. The digitised vector map layer is available and integrated into a WRAP Web Map.
 
 ## Dependencies
-- QGIS
+- [QGIS](https://qgis.org/en/site/forusers/download.html)
 - TensorFlow
 - NumPy
 - Python 3.x

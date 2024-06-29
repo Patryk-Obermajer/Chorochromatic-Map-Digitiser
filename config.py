@@ -8,6 +8,7 @@ original_image_path = r'.\data\01-source-map\winter_rain_potential_hi-res-CLIPPE
 # I think this is a good thing and will ensure consistency but I can see how this can be limiting further down the line if we started playing around a bit more
 img_width = img_height = tile_size = 6
 
-TF_MODEL_FILE_PATH = 'CNN-model.tflite'
+TF_MODEL_FILE_PATH = 'CNN-WRAP-model.tflite'
 class_names = ['Class-0-water', 'Class-1', 'Class-2', 'Class-3', 'Class-4', 'Class-5']
-log_file_path = './classification_log-hi-res-Large-Tiles-batched-new-train-4o.txt'
+log_file_path = './Recreate-WRAP-log.txt'
+reconstructed_image_path = './Reconstructed_WRAP_map.png'
