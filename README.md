@@ -3,6 +3,8 @@
 ## Description
 This project uses Convolutional Neural Networks (CNNs) to digitise scanned historical chorochromatic maps, converting them into digital spatial data. Traditional GIS vectorisation methods are inefficient due to noise and imperfections in scanned images. The approach is applied to the Winter Rainfall Availability Potential (WRAP) map.
 
+![Chorochromatic-map-digitiser](https://github.com/Patryk-Obermajer/Chorochromatic-Map-Digitiser/assets/69651910/aea28f3e-84c9-4823-9e2f-7f1534547e6d)
+
 ## Project Structure
 
 1. **01-map-tiler.ipynb**: Divides the georeferenced map into small tiles for further processing.
